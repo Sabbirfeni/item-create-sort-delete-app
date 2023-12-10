@@ -1,0 +1,45 @@
+.navbar-brand {
+    font-weight: bold;
+}
+label {
+    font-weight: 500;
+}
+
+.delete-btn {
+    border: none;
+    background-color: #e6e6e6;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #f30101;
+    color: white;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    overflow-x: auto;
+}
+
+tr {
+    display: table-row;
+}
+
+/* tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ff0606ee;
+
+}
+
+tr > th, tr > td {
+    max-width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+thead > tr > th {
+    border-bottom: 1px solid rgba(0, 128, 0, 0);
+} */
